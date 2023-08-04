@@ -17,8 +17,8 @@ function App() {
 			id: 1,
 			name: 'username',
 			type: 'text',
-			placeholder: 'username',
-			label: 'username',
+			placeholder: 'Username',
+			label: 'Username',
 		},
 		{
 			id: 2,
@@ -63,6 +63,7 @@ function App() {
 	return (
 		<div className='app'>
 			<form onSubmit={handleSubmit}>
+				<h1>Register</h1>
 				{inputs.map((input) => (
 					<FormInput
 						key={input.id}

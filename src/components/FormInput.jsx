@@ -1,7 +1,5 @@
 import './formInput.css';
-
-const FormInput = (props) => {
-	const { label, onChange, id, ...inputProps } = props;
+const FormInput = ({ label, onChange, id, ...inputProps }) => {
 	return (
 		<div className='form-input'>
 			<label htmlFor=''>{label}</label>
